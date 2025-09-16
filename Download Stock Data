@@ -1,0 +1,7 @@
+import yfinance as yf
+
+# Download stock data (Example: Apple)
+df = yf.download("AAPL", start="2018-01-01", end="2025-01-01")
+
+print(df.head())
+df.to_csv("data/stock_data.csv")
