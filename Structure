@@ -1,0 +1,12 @@
+Stock_Price_Prediction_LSTM
+│── README.md
+│── data/
+│   ├── stock_data.csv
+│── notebooks/
+│   ├── stock_prediction_lstm.ipynb
+│── models/
+│   ├── lstm_model.h5
+│── plots/
+│   ├── loss_curve.png
+│   ├── prediction_plot.png
+│── requirements.txt
